@@ -1,4 +1,16 @@
 aid: minghui-pharmaceutical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minghui-pharmaceutical.png
 name: Minghui Pharmaceutical
 description: 'Minghui Pharmaceutical is a company surfaced as a portfolio company of idg-capital and added
   to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
@@ -12,13 +24,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Pharmaceutical
+- Biotechnology
+- Drug Development
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+x-enrichment-notes: 'Probed candidate official domain minghuitx.com (resolves 122.51.52.51,
+  Beijing/CN registrant, consistent with a clinical-stage pharma) — entire site returns
+  502 Bad Gateway (nginx) on all paths including every /.well-known/. No API surface,
+  developer portal, OpenAPI, or artifacts found. WebSearch budget exhausted; DNS/HTTP/whois
+  probes ran clean. No fabrication.'
